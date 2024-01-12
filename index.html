@@ -9,6 +9,9 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="assets/images/logo png.png">
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+    	<link rel="stylesheet" href= "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
     <title>EJ PRINTING SERVICES</title>
 <!--
@@ -333,11 +336,62 @@ https://templatemo.com/tm-540-lava-landing-page
                                         <fieldset>
                                             <label required="" style="background-color: rgba(250,250,250,0.3);">Types of Full Sublimatiion</label>
                                         </fieldset>
+                                     
                                     </div>  
                                     <div class="col-lg-12">
                                         <fieldset>
-                                            <textarea name="message" rows="6" id="message" placeholder="Your Message"
-                                                required="" style="background-color: rgba(250,250,250,0.3);"></textarea>
+                                            <div style="width:100%;">
+                                                <form>
+                                                    <div class="">
+                                        
+                                                        <div class="col-lg-12">
+                                                            <div id="row">
+                                                                <div class="form-row" style="margin-bottom: -5%;">
+                                                                    <div class="form-group col-md-3">
+                                                                        <label for="inputSize">Shirts</label>
+                                                                        <select id="inputSize" class="form-control">
+                                                                        <option selected>Choose...</option> 
+                                                                        <option>T-Shirt</option>
+                                                                        <option>Upper Jersey</option>
+                                                                        <option>Set Jersey</option>
+                                                                        <option>Warmer</option>
+                                                                        <option>Polo Shirts</option>
+                                                                        <option>Longsleeves</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="form-group col-md-4">
+                                                                        <label for="inputSize">Sizes</label>
+                                                                        <select id="inputSize" class="form-control">
+                                                                        <option selected>Choose...</option> 
+                                                                        <option>Extra Small</option>
+                                                                        <option>Small</option>
+                                                                        <option>Medium</option>
+                                                                        <option>Large</option>
+                                                                        <option>Extra Large</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="form-group col-md-3">
+                                                                        <label for="inputZip">Qty</label>
+                                                                        <input type="number" class="form-control" id="inputZip">
+                                                                    </div>
+                                                                    <div class="form-group col-md-1">
+                                                                        <button class="btn btn-danger"
+                                                                                id="DeleteRowGroup"
+                                                                                type="button">
+                                                                            <i class="bi bi-trash"></i>
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div id="newInputGroup"></div>
+                                        
+                                                            <button id="rowAdderGroup" type="button" class="btn btn-dark" style="font-size: 11px;">
+                                                                <span class="bi bi-plus-square-dotted">
+                                                                </span> ADD GROUP
+                                                            </button>
+                                             
+                                                 </form>
+                                             </div>
                                         </fieldset>
                                     </div>
                                     <div class="col-lg-12">
@@ -349,26 +403,28 @@ https://templatemo.com/tm-540-lava-landing-page
                                 </div>
                                 
                             </form>
+                            
                         </div>
                     </div>
          
 
                     <!-- ***** Contact Form End ***** -->
-                    <div class="right-content col-lg-6 col-md-12 col-sm-12">
-                        <h2>More About <em>Lava</em></h2>
-                        <p>Phasellus dapibus urna vel lacus accumsan, iaculis eleifend leo auctor. Duis at finibus odio.
-                            Vivamus ut pharetra arcu, in porta metus. Suspendisse blandit pulvinar ligula ut elementum.
-                            <br><br>If you need this contact form to send email to your inbox, you may follow our <a
-                                rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact</a> page
-                            for more detail.</p>
-                        <ul class="social">
-                            <li><a href="https://fb.com/templatemo"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        </ul>
-                    </div>
+                  
+                </div>
+                <div class="right-content col-lg-6 col-md-12 col-sm-12">
+                    <h2>More About <em>Lava</em></h2>
+                    <p>Phasellus dapibus urna vel lacus accumsan, iaculis eleifend leo auctor. Duis at finibus odio.
+                        Vivamus ut pharetra arcu, in porta metus. Suspendisse blandit pulvinar ligula ut elementum.
+                        <br><br>If you need this contact form to send email to your inbox, you may follow our <a
+                            rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact</a> page
+                        for more detail.</p>
+                    <ul class="social">
+                        <li><a href="https://fb.com/templatemo"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
                 </div>
             </div>
             <div class="row">
@@ -382,7 +438,53 @@ https://templatemo.com/tm-540-lava-landing-page
             </div>
         </div>
     </footer>
+<script type="text/javascript">
+	
 
+        $("#rowAdderGroup").click(function () {
+			newRowAddGroup =
+           ' <div id="row">'+
+                ' <div class="form-row"style="margin-bottom: -5%;">'+
+                    ' <div class="form-group col-md-3">'+
+                        '  <label for="inputSize">Shirts</label>'+
+                        '<select id="inputSize" class="form-control">'+
+                        ' <option selected>Choose...</option> '+
+                           ' <option>T-Shirt</option>'+
+                            '<option>Upper Jersey</option>'+
+                            ' <option>Set Jersey</option>'+
+                         '<option>Warmer</option>'+
+                          ' <option>Polo Shirts</option>'+
+                           ' <option>Longsleeves</option>'+
+                        '</select>'+
+                         '</div>'+
+                        ' <div class="form-group col-md-4">'+
+                            '<label for="inputSize">Sizes</label>'+
+                             '<select id="inputSize" class="form-control">'+
+                              '<option selected>Choose...</option> '+
+                            ' <option>Extra Small</option>'+
+                               ' <option>Small</option>'+
+                               '<option>Medium</option>'+
+                                 '<option>Large</option>'+
+                                ' <option>Extra Large</option>'+
+                                ' </select>'+
+                                ' </div>'+
+                                              '<div class="form-group col-md-3">'+
+                                                                   ' <label for="inputZip">Qty</label>'+
+                                                                    '<input type="number" class="form-control" id="inputZip">'+
+                                                                '</div>'+
+                                                                '<div class="form-group col-md-1">'+
+                                                                    '<button class="btn btn-danger"id="DeleteRowGroup" type="button">'+
+                                                                        '<i class="bi bi-trash"></i>'+
+                                                                    '</button>'+
+                                                                '</div>'+
+                                                            '</div>'+
+                                                        '</div>'
+			$('#newInputGroup').append(newRowAddGroup);
+		});
+		$("body").on("click", "#DeleteRowGroup", function () {
+            $(this).parents("#row").remove();
+		});
+	</script>
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
 
