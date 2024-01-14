@@ -193,6 +193,7 @@ button.main-button {
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
+  float: right;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -1075,7 +1076,11 @@ footer .right-content {
 .footer-content .right-content a:hover {
   color: #FC3;
 }
+#newInputGroup
+{
+margin-top: 20px;
 
+}
 footer .social {
   overflow: hidden;
   margin-top: 30px;
